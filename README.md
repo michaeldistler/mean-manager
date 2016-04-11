@@ -1,4 +1,4 @@
-# MEAN Manager (Still under development)
+# MEAN Manager
 A light MEAN stack project manager.  
 
 ## Why
