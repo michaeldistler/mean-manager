@@ -1,4 +1,4 @@
-# MEAN Manager
+# MEAN Manager (Still under development)
 A light MEAN stack project manager.  
 
 ## Why
@@ -25,8 +25,8 @@ any project management commands.
 $ node manage.js <command> [options]
 ```
 
-**command**'s are listed in the [API](https://github.com/michaeldistler/mean-manager#API) section.  
-**options** can be found listed under each command in the [API](https://github.com/michaeldistler/mean-manager#API);
+**command**'s are listed in the [API](https://github.com/michaeldistler/mean-manager#api) section.  
+**options** can be found listed under each command in the [API](https://github.com/michaeldistler/mean-manager#api);
 optionality is dependent upon the command.
 
 ## Framework-type functionality
