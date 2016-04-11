@@ -18,11 +18,11 @@ $ npm install mean-manager --save-dev
 
 ## Usage
 
-MEAN Manager uses a **manage.js** file, similar to [Django's **manage.py**](https://docs.djangoproject.com/en/1.9/ref/django-admin/), to access 
+Use **mm-manage** in a similar way as [Django's **manage.py**](https://docs.djangoproject.com/en/1.9/ref/django-admin/) to access 
 any project management commands.
 
 ```
-$ node manage.js <command> [options]
+$ mm-manage <command> [options]
 ```
 
 **command**'s are listed in the [API](https://github.com/michaeldistler/mean-manager#api) section.  
@@ -40,7 +40,7 @@ we are working to provide one that can be cloned from a separate repository.
 ### create-project 
 
 ```
-$ node manage.js create-project projectName
+$ mm-manage create-project projectName
 ```
 
 **create-project** requires that a project name parameter be set when called.
@@ -51,7 +51,7 @@ and lays out the file structure as well as the files needed to get started.
 ### create-module
 
 ```
-$ node manage.js create-module moduleName
+$ mm-manage create-module moduleName
 ```
 
 **create-module** requires that a module name parameter be set when called.

@@ -1,5 +1,6 @@
 var fs = require('fs');
 var mkdirp = require('mkdirp');
+var chalk = require('chalk');
 
 var serverDir = '/server'; 
 var clientDir = '/client';
@@ -11,7 +12,7 @@ var createModule = function() {
     if(fs.existsSync(newModulePath)) {
         console.log('\n' + args + " already exists.");
     }else {
-        console.log("\nCreating " + args + "...");
+        console.log("\nCreating " + chalk.red(args) + "...");
 
         // Create a new module   
         fs.mkdirSync(newModulePath);
@@ -38,7 +39,7 @@ var createModule = function() {
         fs.mkdirSync(newModulePath + testsDir + clientDir);
         fs.mkdirSync(newModulePath + testsDir + serverDir);
         console.log("Tests directory added at " + newModulePath + testsDir);
-        console.log("\nModule " + args + " created.\n");
+        console.log("\nModule " + chalk.red(args) + " created.\n");
 
     }
 }

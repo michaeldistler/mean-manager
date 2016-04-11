@@ -1,8 +1,11 @@
 {
   "name": "mean-manager",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A MEAN stack module manager",
-  "main": "manage.js",
+  "preferGlobal": true,
+  "bin": {
+    "mm-manage": "manage.js" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
