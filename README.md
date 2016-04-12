@@ -13,7 +13,7 @@ A light MEAN stack project manager.
 ## Installation
 
 ```
-$ npm install mean-manager --save-dev
+$ npm install mean-manager -g
 ```
 
 ## Usage
